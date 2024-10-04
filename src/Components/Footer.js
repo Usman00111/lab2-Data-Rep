@@ -1,5 +1,5 @@
 const Footer = () => {
-    // h3 tag to display this line 
+    // this file contains h3 tag to display this line 
     return <h3>My Footer in another component</h3>;
   };
   

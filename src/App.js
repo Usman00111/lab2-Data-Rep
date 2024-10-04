@@ -10,8 +10,10 @@ function App() {
     <Router>
       <NavigationBar />
       <Routes>
-        {/* when you click home the element from content would show */}
-        <Route path="/ " element={<Content />} /> 
+        {/* all this does is basically changes the url to locallhoast300/ component name rather than 
+        requesting again and overloading *
+        all of this done in routes everything in it, are changed based on url */}
+        <Route path="/" element={<Content />} /> 
         <Route path="/read" element={<Header></Header>} />
         <Route path="/create" element={<Footer></Footer>} />
       </Routes>
