@@ -4,6 +4,9 @@ import NavigationBar from './Components/NavigationBar';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Content from './Components/Content';
+import Read from './Components/read';
+import Create from './Components/create';
+import Movies from './Components/movies';
 
 function App() {
   return (
@@ -14,8 +17,8 @@ function App() {
         requesting again and overloading *
         all of this done in routes everything in it, are changed based on url */}
         <Route path="/" element={<Content />} /> 
-        <Route path="/read" element={<Header></Header>} />
-        <Route path="/create" element={<Footer></Footer>} />
+        <Route path="/read" element={<Read/>} />
+        <Route path="/create" element={<Create/>} />
       </Routes>
       <Footer />
     </Router>
